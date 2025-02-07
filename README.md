@@ -58,7 +58,7 @@ Xây dựng hệ thống quản lý người dùng với các chức năng:
 - **Strategy Pattern**: Áp dụng cho việc xác thực người dùng qua nhiều phương thức khác nhau (JWT, OAuth2, Session).
 - **Observer Pattern**: Dùng để gửi thông báo khi có sự thay đổi quan trọng, ví dụ như gửi email khi đăng ký thành công.
 
-## 🎯 Exception Handler
+## 🎯 Exception Handler + Validation
 
 ## 🔐 Security
 - [ ] **Mã hóa mật khẩu** với `BCrypt`
