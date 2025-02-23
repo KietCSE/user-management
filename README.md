@@ -49,6 +49,7 @@ Xây dựng hệ thống quản lý người dùng với các chức năng:
     - **User** có thể tự xóa tài khoản của mình
 
 ## Database - PostgreSQL
+- **Spring Data - Spring JPA**: ORM framework, One-to-One, One-to-Many, Many-to-One, Many-to-Many, Sorting and Paging query
 
 ## 🎯 Design Patterns Áp Dụng
 - **Singleton**: Quản lý các service quan trọng như Authentication, JWT Token Provider.
