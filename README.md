@@ -48,7 +48,7 @@ Xây dựng hệ thống quản lý người dùng với các chức năng:
     - **Admin** có thể xóa user
     - **User** có thể tự xóa tài khoản của mình
 
-## Database - H2 Database
+## Database - PostgreSQL
 
 ## 🎯 Design Patterns Áp Dụng
 - **Singleton**: Quản lý các service quan trọng như Authentication, JWT Token Provider.
