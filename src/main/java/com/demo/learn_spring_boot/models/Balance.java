@@ -6,17 +6,16 @@ import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Data
-public class Users {
+public class Balance {
+
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO,generator="native")
     @GenericGenerator(name = "native",strategy = "native")
     Integer id;
 
-    String name;
+    Integer money;
 
-    String password;
+    @OneToOne(mappedBy = "balance", fetch = FetchType.EAGER, cascade = CascadeType.PERSIST, targetEntity = Users.class)
+    private Users user;
 
-    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST, targetEntity = Balance.class)
-    @JoinColumn(name = "balance_id", referencedColumnName = "id", nullable = true)
-    private Balance balance;
 }
